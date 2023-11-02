@@ -17,16 +17,28 @@
     position: fixed;
     margin-left: 12%;
     font-size: 275%;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   h2 {
     margin: 2% 0;
     font-size: 300%;
     color:rgb(3, 117, 117);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
     text-align: center;
+  }
+
+  h3 {
+    font-size: 200%;
+
+  }
+
+  h4 {
+    font-size: 125%;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
   }
   
   nav ul {
@@ -117,5 +129,27 @@
   background-image: url("../images/dandelion-445228_1280.jpg")
 
 }
+
+aside {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  margin-left: 10%;
+  padding: 25px;
+  text-align: center;
+  background-color: aliceblue;
+}
   
-  
+.aside-header {
+  color:rgb(10, 82, 90) ;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 35px;
+
+}  
+
+.aside-links {
+  margin-bottom: 50px;
+  color:darkblue
+
+}
