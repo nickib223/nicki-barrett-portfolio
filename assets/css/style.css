@@ -1,0 +1,121 @@
+ body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: #05d0c6;
+    color: #fff;
+  }
+  
+  h1 {
+    position: fixed;
+    margin-left: 12%;
+    font-size: 275%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  h2 {
+    margin: 2% 0;
+    font-size: 300%;
+    color:rgb(3, 117, 117);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    
+  }
+  
+  nav a {
+    color: #b6fd10;
+    font-weight: bold;
+    text-decoration:none;
+  }
+
+  nav a:active {
+    color: blue;
+    text-decoration:underline;
+  }
+  
+  nav a:visited {
+    color:darkblue;
+
+  }
+
+  nav a:hover {
+    color: #fff;
+  }
+
+  main {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 96%;
+    margin: 2% auto;
+  }
+  
+  article {
+    border-bottom: 5px solid #0dd2d6;
+  }
+  
+  article p {
+    margin:1%;
+    text-align: center;
+    font-size: 110%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+  }
+  
+  article ul {
+    margin-left: 5%;
+    font-size: 110%;
+    list-style: circle;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: #13293d;
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    main {
+      max-width: 1200px;
+    }
+  }
+  .profile-image {
+    height: 10%;
+    width: 10%;
+    display: inline-block;
+    align-items: left;
+    padding: 0%;
+  }
+
+
+  .dandelion {
+  height:300px;
+  width:100%;
+  display: inline-block;
+  background-size: cover;
+  margin-block: 0%;
+  background-repeat: no-repeat;
+  background-image: url("../images/dandelion-445228_1280.jpg")
+
+}
+  
+  
