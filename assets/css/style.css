@@ -139,12 +139,16 @@ aside {
   padding: 35px;
 }
 
-.projects {
-  flex: 1 0 800px;
-  padding: 15px;
-  text-align: start;
+.first-project {
+  background-image: url(../images/pexels-photo-255377.webp);
+  width:auto;
+  height: 200px;
+  padding:15px;
   border-style: double;
   border-width: 3px;
+  font-weight: bold;
+  font-size: 200%;
+  vertical-align: text-bottom;
 }
 
   footer {
