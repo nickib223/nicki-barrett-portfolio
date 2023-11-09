@@ -40,6 +40,9 @@ https://www.w3schools.com/cssref/sel_hover.php
 https://www.w3schools.com/cssref/pr_class_display.php
 https://www.w3schools.com/css/css_positioning.asp
 https://www.browserstack.com/guide/position-text-over-image-using-css - <!-- helped me figure out how to affix text to my responsive images -->
+
+https://stackoverflow.com/questions/21055105/how-to-position-image-caption-over-and-within-a-responsive-image 
+
 ## License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).

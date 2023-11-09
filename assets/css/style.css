@@ -2,27 +2,19 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing:border-box
   }
-  @media screen and (max-width: 768px) {
-    body {
-      flex-direction: column;
-    }
-  }
+  
 
   header {
     display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 2%;
     background-color: #05d0c6;
     color: #fff;
   }
 
-  @media screen and (max-width: 768px) {
-    header {
-      flex-direction: column;
-  } 
-  }
+  
   h1 {
-    /* display: inline-flex; */
     font-size: 400%;
     margin: 0;
   }
@@ -48,6 +40,7 @@
   
   nav ul {
     display: flex;
+    flex-direction: row;
     justify-content:space-between;
     min-width: 300px;
     
@@ -75,12 +68,13 @@
 
   main {
     display: flex;
+    flex-direction: column;
     max-width: 96%;
     margin: 2% auto;
   }
 
   article p {
-    margin:1%;
+    margin:0px 220px 75px 220px;
     text-align: center;
     font-size: 110%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -88,7 +82,7 @@
 
   aside {
     margin: 10% 5% 75% 10%;
-    padding: 25px;
+    padding: 5px;
     text-align: center;
     background-color: aliceblue;
   }
@@ -104,16 +98,22 @@
     margin-bottom: 50px;
     color:darkblue
   }
+  .aside-position {
+    position:absolute;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    left: 1400px;
+    top: 480px;
+  }
 
-  .about-me {
-    display: flex;
-    flex-direction: column;
+  .section-header {
+    display: inline;
     line-height: 1.4;
+    padding: 20px 5px 5px 5px
   }
   
   .border {
     border-bottom: 5px solid #05d0c6;
-    padding: 35px;
   }
   
   .profile-image {
@@ -131,66 +131,59 @@
     background-image: url("../images/dandelion-445228_1280.jpg")
   }
 
-  .body-of-work {
-    padding: 35px;
+  .bright-hover {
+    filter:brightness(1);
+    transition: filter 0.3s;
+
+    &:hover {
+      filter: brightness(1.5);
   }
 
-  #repos {
-    margin: 0;
-    padding: 0; 
-  }
-
-  #repos img {
-    border: 6px solid #05d0c6;
-  }
-
-  .image-container {
-    display:inline-block;
+  #main-image {
+    display: inline-flex;
     flex-direction: column;
-    align-items: center;
+    padding: 25px 100px 50px 100px;
+    }
   }
 
-  .main-image {
-    position:relative;
-    max-width: 100%;
+  #main-image img {
     height: 500px;
     width: 100%;
-    margin: 10px 10px 20px 20px;
-    
-  }
-
-  .main-image img {
-    display: flex;
-    width: 100%;
-    height:100%;
+    border: 6px solid #05d0c6;
     border-radius: 30px 30px;
+    position: relative;
   }
 
-  .main-image figcaption {
-    position:absolute;
-    top: 85%;
-    left: 3%;
-    font-size: 300%;
+  #main-image figcaption {
+    display:flexbox;
+    font-size: 300%;  
     font-weight: bold;
     background-color: rgba(3, 76, 76, 0.7);
-    padding:4px;
-    border-top: 3px solid #013835;
-    border-bottom: 3px solid #013835;
+    padding:5px;
+    border: 3px solid #013835;
     color:aliceblue
   }
 
-  .small-container {
-      display: inline-block;
+  .caption-position {
+    position: absolute;
+    bottom: 50px;
+  }
+
+  #small-container {
+      display:inline-flex;
       flex-direction: column;
-      height: 500px;
-      width: 45%;
-      margin-left: 52px;
+      padding: 25px 60px 50px 0px;
+      margin-left: 7%;
+              
     }
 
-  .small-container img {
-    width: 100%;
-    height:100%;
+  #small-container img {
+    height:500px;
+    width:600px;
+    border: 6px solid #05d0c6;
     border-radius: 30px 30px;
+    position: relative;
+
     filter:brightness(1);
     transition: filter 0.3s;
 
@@ -199,28 +192,20 @@
     }
   }
 
-  .project-titles-top {
-    position:absolute;
-    bottom: -650px;
-    font-size: 175%;
+  #small-container figcaption {
+    display:flexbox;
+    font-size: 200%;  
     font-weight: bold;
     background-color: rgba(3, 76, 76, 0.7);
-    padding:6px;
-    border-top: 3px solid #013835;
-    border-bottom: 3px solid #013835;
+    padding:5px;
+    border: 3px solid #013835;
     color:aliceblue
   }
 
-  .project-titles-bottom {
+  .small-caption-position {
     position:absolute;
-    bottom: -1150px;
-    font-size: 175%;
-    font-weight: bold;
-    background-color: rgba(3, 76, 76, 0.7);
-    padding:6px;
-    border-top: 3px solid #013835;
-    border-bottom: 3px solid #013835;
-    color:aliceblue
+    bottom: 80px;
+
   }
 
   footer {
@@ -232,4 +217,16 @@
     padding: 1%;
     background-color: #13293d;
     color: #fff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+  } 
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      flex-direction: column;
+    }
   }
