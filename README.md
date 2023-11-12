@@ -25,6 +25,7 @@ https://www.browserstack.com/guide/position-text-over-image-using-css - <!-- hel
 https://stackoverflow.com/questions/21055105/how-to-position-image-caption-over-and-within-a-responsive-image - <!-- helped me figure out how to affix text to my responsive images -->
 https://stackoverflow.com/questions/47976439/unable-to-remove-white-space-from-right-in-responsive-design-html-css - <!--helped me fix a bug with the responsiveness of the viewport. There was white space on the right side when the viewport was <600px. I used the suggested code for overflow-x on line 6>
 https://blog.hubspot.com/website/center-text-in-css - <!-- used in univeral * selector -->
+https://chat.openai.com/c/6b6a2697-1c91-4b5a-92d4-d9465cda7263 - <!--helped me figure out how to place my contact info into columns-->
 
 ## License
 
