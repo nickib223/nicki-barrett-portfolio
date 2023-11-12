@@ -23,6 +23,8 @@ https://www.w3schools.com/cssref/pr_class_display.php - <!-- helped me with unde
 https://www.w3schools.com/css/css_positioning.asp - <!-- helped me with understanding what each positioning term means and what its use is -->
 https://www.browserstack.com/guide/position-text-over-image-using-css - <!-- helped me figure out how to affix text to my responsive images -->
 https://stackoverflow.com/questions/21055105/how-to-position-image-caption-over-and-within-a-responsive-image - <!-- helped me figure out how to affix text to my responsive images -->
+https://stackoverflow.com/questions/47976439/unable-to-remove-white-space-from-right-in-responsive-design-html-css - <!--helped me fix a bug with the responsiveness of the viewport. There was white space on the right side when the viewport was <600px. I used the suggested code for overflow-x on line 6>
+https://blog.hubspot.com/website/center-text-in-css - <!-- used in univeral * selector -->
 
 ## License
 
