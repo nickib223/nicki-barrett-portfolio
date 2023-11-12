@@ -2,50 +2,31 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+This project was created to help me showcase my new coding skills and provide a demonstration of those skills in action. It also provides a place for me to refer prospective employers. This was my first foray into CSS and I learned a great deal about advanced CSS through the creation of this site. 
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+N/A
 
 ## Usage
 
 Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![image](https://github.com/nickib223/nicki-barrett-portfolio/assets/146459728/f14daaa0-4026-4ece-80e5-a00a7d496ac9)
 
 ## Credits
 
-https://web.stanford.edu/group/csp/cs21/csscheatsheet.pdf
-https://cheatsheets.shecodes.io/css
-https://www.w3schools.com/cssref/sel_hover.php
-https://www.w3schools.com/cssref/pr_class_display.php
-https://www.w3schools.com/css/css_positioning.asp
+https://web.stanford.edu/group/csp/cs21/csscheatsheet.pdf - <!-- used this summary of css codes throughout building the site -->
+https://cheatsheets.shecodes.io/css - <!-- used this summary of css codes throughout building the site -->
+https://www.w3schools.com/cssref/sel_hover.php - <!-- helped me figure out how to set an image to brighten when hovering over it -->
+https://www.w3schools.com/cssref/pr_class_display.php - <!-- helped me with understanding what each display term means and what its use is -->
+https://www.w3schools.com/css/css_positioning.asp - <!-- helped me with understanding what each positioning term means and what its use is -->
 https://www.browserstack.com/guide/position-text-over-image-using-css - <!-- helped me figure out how to affix text to my responsive images -->
-
-https://stackoverflow.com/questions/21055105/how-to-position-image-caption-over-and-within-a-responsive-image 
+https://stackoverflow.com/questions/21055105/how-to-position-image-caption-over-and-within-a-responsive-image - <!-- helped me figure out how to affix text to my responsive images -->
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+Please refer to the LICENSE in the repo.
 
 ---
 
