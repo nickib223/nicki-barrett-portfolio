@@ -217,6 +217,7 @@
     #main-image figcaption {
       font-size: 32px;
       padding:5px;
+      position:absolute;
     }
     
   }
