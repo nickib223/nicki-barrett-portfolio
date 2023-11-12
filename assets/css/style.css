@@ -179,7 +179,6 @@
   #main-image {
     display: inline-flex;
     flex-direction: column;
-    
     }
   }
 
@@ -201,6 +200,14 @@
     padding: 1%;
     border: 3px solid #013835;
     color:aliceblue
+  }
+
+  @media only screen and (max-width: 667px) {
+    #main-image figcaption {
+      font-size: 16px;
+      padding:5px;
+    }
+    
   }
 
   #small-container {
@@ -288,9 +295,5 @@
     padding: 1%;
     background-color: #13293d;
     color: #fff;
-  }
-  
-  
-
-  
+  } 
   
