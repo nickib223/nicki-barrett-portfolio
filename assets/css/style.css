@@ -200,7 +200,7 @@
     position: relative;
   }
   
-  /* @media only screen and (min-width: 375px) and (max-width: 812px) {
+  @media only screen and (max-width: 375px) {
     #main-image figcaption {
       position:absolute;
       font-size: 32px;
@@ -208,11 +208,9 @@
       
     }
     
-  } */
+  }
 
   #main-image figcaption {
-    /* position:absolute; */
-    /* display:flexbox; */
     bottom: 50%;
     font-size: 32px; 
     max-width: 45%; 
