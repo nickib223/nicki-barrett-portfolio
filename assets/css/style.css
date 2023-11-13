@@ -200,8 +200,9 @@
     position: relative;
   }
   
-  @media only screen and (max-width: 667px) {
+  @media only screen and (max-width: 360px) {
     #main-image figcaption {
+      position:absolute;
       font-size: 32px;
       padding:5px;
       
