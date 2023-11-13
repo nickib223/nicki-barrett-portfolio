@@ -212,6 +212,7 @@
 
   #main-image figcaption {
     position:absolute;
+    margin-bottom: 1%;
     bottom: 10%;
     font-size: 32px; 
     max-width: 45%; 
