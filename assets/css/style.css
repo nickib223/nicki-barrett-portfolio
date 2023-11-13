@@ -188,7 +188,6 @@
   }
 
   .main-image {
-    display: relative;
     position: relative;
     }
   }
@@ -200,15 +199,15 @@
     position: relative;
   }
   
-  /* @media only screen and (min-width: 375px) and (max-width: 812px) {
+  @media only screen and (max-width: 390px) {
     #main-image figcaption {
-      position:absolute;
+      position:relative;
       font-size: 32px;
       padding:5px;
       
     }
     
-  } */
+  }
 
   .main-image figcaption {
     position:absolute;
