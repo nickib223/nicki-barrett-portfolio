@@ -187,13 +187,13 @@
       filter: brightness(1.5);
   }
 
-  #main-image {
-    display: inline-flex;
-    flex-direction: column;
+  .main-image {
+    display: relative;
+    position: relative;
     }
   }
 
-  #main-image img {
+  .main-image img {
     height: 500px;
     width: 100%;
     border: 6px solid #05d0c6;
@@ -210,9 +210,8 @@
     
   } */
 
-  #main-image figcaption {
+  .main-image figcaption {
     position:absolute;
-    margin-bottom: 1%;
     bottom: 10%;
     font-size: 32px; 
     max-width: 45%; 
