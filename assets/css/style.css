@@ -187,12 +187,12 @@
       filter: brightness(1.5);
   }
 
-  .main-image {
+  #main-image {
     position: relative;
     }
   }
 
-  .main-image img {
+  #main-image img {
     height: 500px;
     width: 100%;
     border: 6px solid #05d0c6;
@@ -200,7 +200,7 @@
   }
   
   @media only screen and (max-width: 390px) {
-    .main-image figcaption {
+    #main-image figcaption {
       position:relative;
       font-size: 32px;
       padding:5px;
@@ -209,7 +209,7 @@
     
   }
 
-  .main-image figcaption {
+  #main-image figcaption {
     position:absolute;
     bottom: 10%;
     font-size: 32px; 
